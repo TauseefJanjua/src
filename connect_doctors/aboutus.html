@@ -1,0 +1,380 @@
+<!DOCTYPE html><!-- Designed by: @tauseef_sb -->
+<html>
+<head>
+<title>Doctors Connect</title>
+<link rel="icon" type="image/png" href="./img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/style2.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='./js/scrollReveal.js'></script>
+</head>
+<body>
+
+<!-- Begin Navbar -->
+
+<nav class="navbar navbar-inverse " role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed btn-primary" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="wall.html"> <img src="img/icon.png" alt="logo" class="img" style=" padding: 10px; "></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      
+
+
+      <form class="navbar-form navbar-left" role="search">
+	  
+	
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <a href="./search-result.html"><button type="button" class="btn btn-primary glyphicon glyphicon-search"></button></a><span> <a href="./adv-search.html" class="advsearch">Adv Search</a> </span>
+      </form>
+
+    <ul class="navbar-nav navbar-right">
+
+                    <div class="dropdown">
+                    <i class="fa fa-flag-o fa-2x" data-toggle="modal" data-target="#myModal" aria-hidden="true" style="color: #eee;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                         <!-- Modal -->
+                                    <div id="myModal" class="modal fade" role="dialog">
+                                      <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title"><b>Notifications</b></h4>
+                                          </div>
+                                          <div class="modal-body">
+                                          <p> <a href="#"><i class="fa fa-bell-o" aria-hidden="true"> &nbsp; Notification 1</i></a></p>
+                                              <p> <a href="#"><i class="fa fa-bell-o" aria-hidden="true"> &nbsp; Notification 2</i></a></p>
+                                              <p> <a href="#"><i class="fa fa-bell-o" aria-hidden="true"> &nbsp; Notification 3</i></a></p>
+                                              <p> <a href="#"><i class="fa fa-bell-o" aria-hidden="true"> &nbsp; Notification 4</i></a></p>
+                                              <p> <a href="#"><i class="fa fa-bell-o" aria-hidden="true"> &nbsp; Notification 5</i></a></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                    
+                </div>
+
+
+                    <div class="dropdown">
+                    <i class="fa fa-comments-o fa-2x dropdown-toggle" data-toggle="dropdown" aria-hidden="true" style="color: #eee;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <ul class="dropdown-menu pull-right" style=" margin: auto;">
+                    <li><a href="./messages.html">Messages</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <i class="fa fa-user fa-2x dropdown-toggle" data-toggle="dropdown" aria-hidden="true" style="color: #eee;"></i>&nbsp;
+                    <ul class="dropdown-menu pull-right" style=" margin: auto;">
+                    <li><a href="./invitations.html">Invitations</a></li><li><a href="./deactivate.html">Deactivate</a></li>
+                    <li><a href="./changepass.html">Change Password</a></li>
+                    <li><a href="./resetpass.html">Reset Password</a></li>
+                    <li class="divider"></li>
+                    <li><a href="./index.html">Log out</a></li>  
+                    </ul>
+                </div>
+       
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- End Navbar -->
+
+<div class="container" >
+<div class="row">
+<div class="hidden-xs col-sm-2 col-md-2">
+    <ul class="list-unstyled list-group">
+
+<li class="list-group-item" >
+        <a href="./profile.html"><i class="fa fa-user" aria-hidden="true"></i>
+Profile</a>
+    </li>
+
+    <li class="list-group-item" >
+        <a href="./edit-profile.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+Edit Profile</a>
+    </li>
+
+    <li class="list-group-item" >
+        <a href="./wall.html"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+My Wall</a>
+    </li>
+    
+    <li class="list-group-item" >
+        <a href="./invite.html"><i class="fa fa-users" aria-hidden="true"></i>
+Invite Doctors</a>
+    </li>
+  
+    <li class="list-group-item" >
+        <a href="./interests.html"><i class="fa fa-smile-o" aria-hidden="true"></i>
+Interests</a>
+    </li>
+
+    <li class="list-group-item" >
+        <a href="./case-studies.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+Case Studies</a>
+    </li>
+
+<!--video conference link removed-->
+    </ul>
+</div>
+
+<div class="col-xs-12 col-sm-7 col-md-7">
+
+       <div class="pinfo" align="center">
+      <div class="row">
+      <div class="col-md-6 col-xs-6" style="padding: 5px; ">
+                <a href="./invite.html"><i class="fa fa-user-md fa-2x" aria-hidden="true"></i>&nbsp; Invite Doctors</a>
+       </div>
+       <div class="col-md-6 col-xs-6" style="padding: 5px; ">
+                <a href="./room.html"><i class="fa fa-users fa-2x" aria-hidden="true"></i>&nbsp; Create a room</a>
+        </div>
+        </div>
+      </div>
+
+<div class="pinfo" align="center">
+        <div class="row">
+        <div class="col-md-4 col-xs-6" style="padding: 5px; ">
+                <a href="#" data-toggle="collapse" data-target="#share-update"><i class="fa fa-share-square-o fa-2x" aria-hidden="true"></i> Share an Update</a>
+        </div>
+            
+        <div class="col-md-4 col-xs-6" style="padding: 5px; ">
+                <input id="upload-file" type="file" style=" display: none; "> <a id="fileupload" style="cursor: pointer;"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i> Upload a Photo</a>
+        </div>
+            
+        <div class="col-md-4 col-xs-12" style="padding: 5px; ">
+                <a href="./case-study.html"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i> Write a Case study</a>
+        </div>
+    
+    </div>
+        </div>
+
+        <div class=" pinfo collapse" id="share-update">
+        <form>
+        <div class="form-group">
+        <textarea class="form-control" rows="3" id="update" placeholder="What is on your mind?"></textarea>
+        <br>
+        <input id="custom-file" type="file" style=" display: none; "><a id="up-file" style="cursor: pointer;"><i class="fa fa-file-o" aria-hidden="true"></i> &nbsp; Share picture / video</a>
+        </div>
+        <div class="form-inline">
+        <input type="text" class="form-control" name="name">
+        <span><button class="btn btn-primary btn-sm" type="submit" data-toggle="collapse" data-target="#share-update">Share</button></span>
+        <span><button class="btn btn-default btn-sm" type="button" data-toggle="collapse" data-target="#share-update" >Cancel</button></span>
+        </div>
+        </form>
+        </div>
+
+
+      
+        <div class="pinfo"><p style=" font-size: 2em; ">
+        About us
+        </p>
+ 
+    
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales eu ante eu gravida. Vivamus quis consectetur ex. Curabitur fringilla, lorem a tristique congue, velit sem pretium ante, eu condimentum lacus est in libero.
+            Mauris vitae eros tincidunt, gravida libero et, tincidunt ipsum. Fusce quis magna quis sapien tristique vestibulum non at neque. Fusce at pretium purus, in sollicitudin arcu. 
+            <p>
+            Sed venenatis magna finibus sem vehicula, dapibus varius felis efficitur. Donec a leo et lacus ultricies aliquet. Suspendisse a volutpat mauris. Mauris urna nisl, convallis non pharetra non, eleifend non nisl. In vel cursus urna. In aliquet eros laoreet semper hendrerit. In cursus, sem eget vulputate tincidunt, nisl leo interdum ligula, ut molestie lectus urna nec dolor. In suscipit dolor a nulla sodales sollicitudin. Vivamus eget libero quis justo ornare fringilla.
+            </p><p>
+            Morbi vehicula sagittis felis vel dignissim. Quisque ultrices, lorem ut feugiat pellentesque, arcu tellus aliquet ipsum, eget condimentum odio metus et ante. Praesent at aliquet urna. Sed quis ultrices quam, imperdiet gravida ipsum. Aliquam erat volutpat. Aenean in nisl iaculis, aliquet velit quis, suscipit dui. Duis porta quis arcu non sollicitudin. Duis convallis vel elit ac sagittis. 
+            </p><p>
+            Morbi faucibus sem ut eros vulputate aliquet. Integer blandit nisi turpis, vel consequat ipsum hendrerit id. Morbi non orci porttitor, vestibulum orci at, dictum nisl. In vestibulum nec nisi sit amet facilisis.
+            <p>
+            Sed venenatis magna finibus sem vehicula, dapibus varius felis efficitur. Donec a leo et lacus ultricies aliquet. Suspendisse a volutpat mauris. Mauris urna nisl, convallis non pharetra non, eleifend non nisl. In vel cursus urna. In aliquet eros laoreet semper hendrerit. In cursus, sem eget vulputate tincidunt, nisl leo interdum ligula, ut molestie lectus urna nec dolor. In suscipit dolor a nulla sodales sollicitudin. Vivamus eget libero quis justo ornare fringilla.
+            </p><p>
+            Morbi vehicula sagittis felis vel dignissim. Quisque ultrices, lorem ut feugiat pellentesque, arcu tellus aliquet ipsum, eget condimentum odio metus et ante. Praesent at aliquet urna. Sed quis ultrices quam, imperdiet gravida ipsum. Aliquam erat volutpat. Aenean in nisl iaculis, aliquet velit quis, suscipit dui. Duis porta quis arcu non sollicitudin. Duis convallis vel elit ac sagittis. 
+            </p>
+        </p>
+        </div>
+
+  
+</div>
+
+<div class="hidden-xs col-sm-3 col-md-3">
+    <div class="pinfo">
+
+    
+           <p class="panel-heading">People you may know</p>
+           <div>
+           <img src="./img/people.png" style="margin-left: -15px; width: 110%;">
+           </div>
+           <br>
+           <div>
+               <p class="panel-heading">Anna Evans</p>
+           </div>
+           <div>
+               <p class="panel-text">F.C.P.S, B.D.S from California medical institute. </p>
+           </div>
+           <div>
+               <button class="button">
+                   Invite
+               </button>
+           </div>
+           <hr>
+
+         <div>
+               <a href="./case-studies.html"><b>Popular Case Studies</b></a>
+           </div>
+        <br>
+
+           <ul class="under-slide small-text">
+                 
+           <li>
+               
+               <a href="./opencase.html"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>&nbsp; Heart Disease by <b>Dr. Marry Lynch</b></a>
+            <ul class="list-inline small-text">      
+            <li>Likes : 1,263</li><li>&nbsp; Views: 5,640</li>
+            </ul>
+            </li>
+            <hr>
+            <li>
+                <a href="./opencase.html"><p> <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>&nbsp; Cholestrol by <b>Dr. Anna Evans</b></p></a>
+                <ul class="list-inline small-text">      
+            <li>Likes : 3,453</li><li>&nbsp; Views: 9,230</li>
+            </ul>
+
+            </li>
+            <hr>
+            <li>
+                <a href="./opencase.html"><p> <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>&nbsp; Pulse by <b>Dr. Robert Desuza</b></p></a>
+                <ul class="list-inline small-text">      
+            <li>Likes : 2,567</li><li>&nbsp; Views: 6,950</li>
+            </ul>
+
+            </li>
+            <hr>
+            <li>
+                <a href="./opencase.html"><p> <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>&nbsp; Heart Beat by <b>Dr. Paul Adams</b></p></a>
+                <ul class="list-inline small-text">      
+            <li>Likes : 3,989</li><li>&nbsp; Views: 4,678</li>
+            </ul>
+
+            </li>
+            <hr>
+            <li>
+                <a href="./opencase.html"><p> <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>&nbsp; Valve malfunction by <b>Dr. James Miller</b></p></a>
+                <ul class="list-inline small-text">      
+            <li>Likes : 5,123</li><li>&nbsp; Views: 7,567</li>
+            </ul>
+
+            </li>
+
+               
+           </ul>    
+               
+            </div>      
+
+            <div class="pinfo">
+              <p class="panel-heading">Advertisement</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus lectus a neque tincidunt, ut sagittis lectus bibendum. Donec iaculis rutrum faucibus. Curabitur vestibulum nulla in leo blandit, vel placerat turpis scelerisque. Duis a molestie nulla, id lobortis nisi. Nam nec ligula congue, commodo dolor sit amet, semper ex. In varius, diam sit amet sollicitudin ultrices, ipsum eros tincidunt orci, vitae volutpat libero ex vitae arcu. Nunc ante justo, varius imperdiet nibh vel, molestie ullamcorper nibh. Sed ut varius augue, maximus blandit tortor. Proin vitae dignissim risus, ac pulvinar lorem. Maecenas eu ipsum enim. Nulla venenatis lacus accumsan pretium tincidunt. 
+              </p>
+                
+              </div>
+            
+        </div>
+
+
+  
+</div>
+
+
+</div>
+</div>
+
+<div class="col-xs-offset-10 col-md-offset-11 dropup chat">
+                  <button class="btn btn-primary dropdown-toggle chat" type="button" data-toggle="dropdown">Chat
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu pull-right">
+                    <img src="./img/chatwindow3.jpg">
+                  </ul>
+</div>
+  
+
+<!-- Footer -->
+    <footer>
+       
+<!-- SOCIAL STARTS HERE-->
+<section class="social " id='social'>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 ">
+                <div class="col-xs-12 col-md-9 ">
+
+                <ul class="list-inline" style=" font-size: 0.8em; margin-bottom: 0px;"><img src="img/icon.png" class="bottomicon"> 
+                        <li style=" color: #eee; "><tab>&copy; 2016</tab></li>
+                        <li>
+                            <a href="./agreement.html" style="color: #eee;">User Agreement</a>
+                        </li>
+                        <li ><tab></tab></li>
+                        <li>
+                            <a href="./privacy.html" style="color: #eee;">Privacy Policy</a>
+                        </li>
+                        <li ><tab></tab></li>
+                        <li>
+                            <a href="./cookie.html" style="color: #eee;">Cookie Policy</a>
+                        </li>
+                        <li ><tab></tab></li>
+                        <li>
+                            <a href="./delivery.html" style="color: #eee;">Delivery Policy</a>
+                        </li>
+                        <li ><tab></tab></li>
+                        <li>
+                            <a href="./return.html" style="color: #eee;">Return Policy</a>
+                        </li>
+                        <li>
+                            <a href="./contactus.html" style="color: #eee;">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="./aboutus.html" style="color: #eee;">About Us</a>
+                        </li>
+                        <li ><tab></tab></li>
+                    </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-3 ">
+
+                    <div class="social_icons">
+          <ul>
+            <li class="facebook"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-facebook"></i> </a> </li>
+            <li class="twitter"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-twitter"></i> </a> </li>
+            <li class="googleplus"> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-google"></i> </a> </li>
+            <li class="linkedin "> <a href="#." data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><i class="fa fa-linkedin"></i> </a> </li>
+          </ul>
+          </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--/ SOCIAL ENDS HERE-->
+
+    </footer>
+<script>
+$("#fileupload").click(function(){
+$("#upload-file").click();
+});
+</script>
+<script> $("#up-file").click(function(){ $("#custom-file").click(); }); </script> </body>
+</html>
